@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Frontend structure
+- Use TanStack Start file-based routes and shared React page modules; do not introduce a second routing framework, because this project renders through TanStack Start.
